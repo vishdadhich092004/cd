@@ -1,0 +1,85 @@
+Token KEYWORD : Lexeme:int 
+ Token IDENTIFIER : Lexeme: main 
+Token LEFT PAR : Lexeme: ( 
+Token RIGHT PAR : Lexeme: ) 
+ Token LEFT PAR : Lexeme: { 
+
+	Token KEYWORD : Lexeme:int 
+ Token IDENTIFIER : Lexeme: i 
+Token DELIMITER : Lexeme: , 
+Token IDENTIFIER : Lexeme: j 
+Token DELIMITER : Lexeme: , 
+Token IDENTIFIER : Lexeme: sum 
+;
+	Token KEYWORD : Lexeme:float 
+ Token IDENTIFIER : Lexeme: x 
+Token DELIMITER : Lexeme: , 
+Token IDENTIFIER : Lexeme: y 
+;
+	Token IDENTIFIER : Lexeme: i 
+ Token ASSIGNMENT : Lexeme: = 
+ Token OPERATOR(13) : Lexeme: - 
+Token INTEGER : Lexeme: 103 
+; Token IDENTIFIER : Lexeme: j 
+ Token ASSIGNMENT : Lexeme: = 
+ Token INTEGER : Lexeme: 411 
+; Token IDENTIFIER : Lexeme: sum 
+ Token ASSIGNMENT : Lexeme: = 
+ Token INTEGER : Lexeme: 0 
+; Token IDENTIFIER : Lexeme: x 
+ Token ASSIGNMENT : Lexeme: = 
+ Token OPERATOR(13) : Lexeme: - 
+Token REAL : Lexeme: 2.35 
+; Token IDENTIFIER : Lexeme: y 
+ Token ASSIGNMENT : Lexeme: = 
+ Token INTEGER : Lexeme: 1 
+Token IDENTIFIER : Lexeme: e 
+Token OPERATOR(13) : Lexeme: - 
+Token INTEGER : Lexeme: 3 
+;
+	
+	Token KEYWORD : Lexeme:if 
+Token LEFT PAR : Lexeme: ( 
+Token IDENTIFIER : Lexeme: i 
+ Token RELATIONAL : Lexeme: <= 
+ Token IDENTIFIER : Lexeme: j 
+Token RIGHT PAR : Lexeme: ) 
+ Token IDENTIFIER : Lexeme: sum 
+ Token ASSIGNMENT : Lexeme: -= 
+ Token IDENTIFIER : Lexeme: i 
+;
+	Token KEYWORD : Lexeme:else 
+ Token IDENTIFIER : Lexeme: sum 
+ Token ASSIGNMENT : Lexeme: += 
+ Token IDENTIFIER : Lexeme: j 
+;
+
+	Token IDENTIFIER : Lexeme: x 
+ Token ASSIGNMENT : Lexeme: = 
+ Token REAL : Lexeme: 2.5 
+Token OPERATOR(12) : Lexeme: * 
+Token IDENTIFIER : Lexeme: x 
+ Token OPERATOR(13) : Lexeme: + 
+ Token IDENTIFIER : Lexeme: y 
+;
+
+	Token KEYWORD : Lexeme:return 
+ Token INTEGER : Lexeme: 0 
+;
+	
+Token RIGHT PAR : Lexeme: } 
+
+Number of keywords token found:0,
+Number of Hexadecimal tokens found: 0 
+Number of Identifiers found: 21 
+Number of Octal tokens found: 0 
+Number of Integer tokens found: 6 
+Number of Decimal tokens found: 2 
+Number of Multiplicative tokens found: 1 
+Number of Arithmetic tokens found: 4 
+Number of Bitwise Shift tokens found: 0 
+Number of Relational tokens found: 1 
+Number of Assignment tokens found: 8 
+Number of Left Parenthesis found: 3 
+Number of Right Parenthesis found: 3 
+Number of Delimiter tokens found: 3 

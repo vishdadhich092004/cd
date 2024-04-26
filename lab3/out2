@@ -1,0 +1,71 @@
+Keyword found 
+ Identifier found 
+Left parenthesis found 
+Right parenthesis found 
+ Left parenthesis found 
+
+	Keyword found 
+ Identifier found 
+Delimiter found 
+Identifier found 
+Delimiter found 
+Identifier found 
+;
+	Keyword found 
+ Identifier found 
+Delimiter found 
+Identifier found 
+;
+	Identifier found 
+ Assignment Operator found 
+ Arithmetic Operator found 
+Integer number found 
+; Identifier found 
+ Assignment Operator found 
+ Integer number found 
+; Identifier found 
+ Assignment Operator found 
+ Integer number found 
+; Identifier found 
+ Assignment Operator found 
+ Arithmetic Operator found 
+Decimal number found 
+; Identifier found 
+ Assignment Operator found 
+ Integer number found 
+Identifier found 
+Arithmetic Operator found 
+Integer number found 
+;
+	
+	Keyword found 
+Left parenthesis found 
+Identifier found 
+ Relational Operator found 
+ Identifier found 
+Right parenthesis found 
+ Identifier found 
+ Assignment Operator found 
+ Identifier found 
+;
+	Keyword found 
+ Identifier found 
+ Assignment Operator found 
+ Identifier found 
+;
+
+	Identifier found 
+ Assignment Operator found 
+ Decimal number found 
+Multiplicative Operator found 
+Identifier found 
+ Arithmetic Operator found 
+ Identifier found 
+;
+
+	Keyword found 
+ Integer number found 
+;
+	
+Right parenthesis found 
+
